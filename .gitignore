@@ -1,0 +1,8 @@
+.env
+./data
+./upload
+venv
+.vscode
+__pycache__
+*.pyc
+.env.production
