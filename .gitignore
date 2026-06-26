@@ -1,3 +1,4 @@
+
 .env
 ./data
 ./upload
@@ -6,3 +7,15 @@ venv
 __pycache__
 *.pyc
 .env.production
+# Databases
+*.db
+*.sqlite3
+
+# Vector Stores / Data folders
+data/
+data_test/
+
+# User Uploads
+uploads/*
+# Keep the directory structure but ignore contents
+!uploads/.gitkeep
